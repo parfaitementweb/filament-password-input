@@ -1,12 +1,12 @@
 # filament-password-input
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/rawilk/filament-password-input.svg?style=flat-square)](https://packagist.org/packages/rawilk/filament-password-input)
-![Tests](https://github.com/rawilk/filament-password-input/workflows/Tests/badge.svg?style=flat-square)
-[![Total Downloads](https://img.shields.io/packagist/dt/rawilk/filament-password-input.svg?style=flat-square)](https://packagist.org/packages/rawilk/filament-password-input)
-[![PHP from Packagist](https://img.shields.io/packagist/php-v/rawilk/filament-password-input?style=flat-square)](https://packagist.org/packages/rawilk/filament-password-input)
-[![License](https://img.shields.io/github/license/rawilk/filament-password-input?style=flat-square)](https://github.com/rawilk/filament-password-input/blob/main/LICENSE.md)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/parfaitementweb/filament-password-input.svg?style=flat-square)](https://packagist.org/packages/parfaitementweb/filament-password-input)
+![Tests](https://github.com/parfaitementweb/filament-password-input/workflows/Tests/badge.svg?style=flat-square)
+[![Total Downloads](https://img.shields.io/packagist/dt/parfaitementweb/filament-password-input.svg?style=flat-square)](https://packagist.org/packages/parfaitementweb/filament-password-input)
+[![PHP from Packagist](https://img.shields.io/packagist/php-v/parfaitementweb/filament-password-input?style=flat-square)](https://packagist.org/packages/parfaitementweb/filament-password-input)
+[![License](https://img.shields.io/github/license/parfaitementweb/filament-password-input?style=flat-square)](https://github.com/parfaitementweb/filament-password-input/blob/main/LICENSE.md)
 
-![social image](https://banners.beyondco.de/Filament%20Password%20Input.png?theme=light&packageManager=composer+require&packageName=rawilk%2Ffilament-password-input&pattern=architect&style=style_1&description=Enhanced+password+input+component+for+filament.&md=1&showWatermark=0&fontSize=100px&images=lock-closed)
+![social image](https://banners.beyondco.de/Filament%20Password%20Input.png?theme=light&packageManager=composer+require&packageName=parfaitementweb%2Ffilament-password-input&pattern=architect&style=style_1&description=Enhanced+password+input+component+for+filament.&md=1&showWatermark=0&fontSize=100px&images=lock-closed)
 
 `filament-password-input` is a package built for [Filament](https://filamentphp.com) that provides an enhanced password input form component that offers you the ability to add the following
 features to your password inputs:
@@ -17,12 +17,10 @@ features to your password inputs:
 
 ## Installation
 
-> Upgrading to 3.0 from 2.x? Be sure to follow the [Upgrade](https://github.com/rawilk/filament-password-input/blob/main/upgrade.md) guide for breaking changes.
-
 You can install the package via composer:
 
 ```bash
-composer require rawilk/filament-password-input
+composer require parfaitementweb/filament-password-input
 ```
 
 That's it. There is no configuration file or migrations necessary for the package. Any customization is done directly on
@@ -54,7 +52,7 @@ public function form(Form $form): Form
 
 The code above will render a password input inside the form with a toggle button to show and hide the password.
 
-![base input](https://github.com/rawilk/filament-password-input/raw/main/docs/images/base-input.png)
+![base input](https://github.com/parfaitementweb/filament-password-input/raw/main/docs/images/base-input.png)
 
 If you want to render a normal password input without the toggle, you may also do that with this field. The following code
 will render the password input without the toggle button inside it:
@@ -85,7 +83,7 @@ Password::make('password')
     ->copyable(),
 ```
 
-![copyable input](https://github.com/rawilk/filament-password-input/raw/main/docs/images/input-with-copy.png)
+![copyable input](https://github.com/parfaitementweb/filament-password-input/raw/main/docs/images/input-with-copy.png)
 
 > **Note:** This button will not show up if the input is disabled.
 
@@ -140,7 +138,7 @@ Password::make('password')
     ->regeneratePassword(),
 ```
 
-![regenerate password](https://github.com/rawilk/filament-password-input/raw/main/docs/images/input-with-generate.png)
+![regenerate password](https://github.com/parfaitementweb/filament-password-input/raw/main/docs/images/input-with-generate.png)
 
 > **Note:** This button will not show up if the input is disabled or readonly.
 
@@ -255,7 +253,7 @@ Password::make('password')
     ->inlineSuffix(),
 ```
 
-![kitchen sink](https://github.com/rawilk/filament-password-input/raw/main/docs/images/kitchen-sink.png)
+![kitchen sink](https://github.com/parfaitementweb/filament-password-input/raw/main/docs/images/kitchen-sink.png)
 
 ## Global Configuration
 
@@ -308,20 +306,20 @@ composer test
 
 ## Changelog
 
-Please see [CHANGELOG](https://github.com/rawilk/filament-password-input/blob/main/CHANGELOG.md) for more information on what has changed recently.
+Please see [CHANGELOG](https://github.com/parfaitementweb/filament-password-input/blob/main/CHANGELOG.md) for more information on what has changed recently.
 
 ## Contributing
 
-Please see [CONTRIBUTING](https://github.com/rawilk/filament-password-input/blob/main/.github/CONTRIBUTING.md) for details.
+Please see [CONTRIBUTING](https://github.com/parfaitementweb/filament-password-input/blob/main/.github/CONTRIBUTING.md) for details.
 
 ## Security
 
-Please review [my security policy](https://github.com/rawilk/filament-password-input/blob/main/.github/SECURITY.md) on how to report security vulnerabilities.
+Please review [my security policy](https://github.com/parfaitementweb/filament-password-input/blob/main/.github/SECURITY.md) on how to report security vulnerabilities.
 
 ## Credits
 
-- [Randall Wilk](https://github.com/rawilk)
-- [All Contributors](https://github.com/rawilk/filament-password-input/graphs/contributors)
+- [Randall Wilk](https://github.com/parfaitementweb)
+- [All Contributors](https://github.com/parfaitementweb/filament-password-input/graphs/contributors)
 
 ## Alternatives
 
@@ -330,4 +328,4 @@ Please review [my security policy](https://github.com/rawilk/filament-password-i
 
 ## License
 
-The MIT License (MIT). Please see [License File](https://github.com/rawilk/filament-password-input/blob/main/LICENSE.md) for more information.
+The MIT License (MIT). Please see [License File](https://github.com/parfaitementweb/filament-password-input/blob/main/LICENSE.md) for more information.
