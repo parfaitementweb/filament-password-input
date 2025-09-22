@@ -36,7 +36,7 @@ php artisan vendor:publish --tag=filament-password-input-translations
 Inside a form schema, you can use the `Password` input like this:
 
 ```php
-use Rawilk\FilamentPasswordInput\Password;
+use Parfaitementweb\FilamentPasswordInput\Password;
 use Filament\Forms\Form;
 
 public function form(Form $form): Form
@@ -58,7 +58,7 @@ If you want to render a normal password input without the toggle, you may also d
 will render the password input without the toggle button inside it:
 
 ```php
-use Rawilk\FilamentPasswordInput\Password;
+use Parfaitementweb\FilamentPasswordInput\Password;
 use Filament\Forms\Form;
 
 public function form(Form $form): Form
@@ -261,7 +261,7 @@ Like most things in filament, you can customize a lot of the default behavior of
 using `configureUsing`:
 
 ```php
-use Rawilk\FilamentPasswordInput\Password;
+use Parfaitementweb\FilamentPasswordInput\Password;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider

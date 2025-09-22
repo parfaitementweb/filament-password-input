@@ -1,8 +1,8 @@
 {
-    "name": "rawilk/filament-password-input",
+    "name": "parfaitementweb/filament-password-input",
     "description": "Enhanced password input component for filament.",
     "keywords": [
-        "rawilk",
+        "parfaitementweb",
         "laravel",
         "filament-password-input",
         "filament",
@@ -10,15 +10,8 @@
         "ui",
         "password"
     ],
-    "homepage": "https://github.com/rawilk/filament-password-input",
+    "homepage": "https://github.com/parfaitementweb/filament-password-input",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Randall Wilk",
-            "email": "randall@randallwilk.dev",
-            "role": "Developer"
-        }
-    ],
     "require": {
         "php": "^8.2",
         "filament/forms": "^4.0",
@@ -36,12 +29,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Rawilk\\FilamentPasswordInput\\": "src/"
+            "Parfaitementweb\\FilamentPasswordInput\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Rawilk\\FilamentPasswordInput\\Tests\\": "tests/"
+            "Parfaitementweb\\FilamentPasswordInput\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -63,7 +56,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Rawilk\\FilamentPasswordInput\\FilamentPasswordInputServiceProvider"
+                "Parfaitementweb\\FilamentPasswordInput\\FilamentPasswordInputServiceProvider"
             ]
         }
     },

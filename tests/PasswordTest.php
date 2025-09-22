@@ -8,7 +8,7 @@ use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
 use Filament\Forms\Form;
 use Livewire\Component;
-use Rawilk\FilamentPasswordInput\Password;
+use Parfaitementweb\FilamentPasswordInput\Password;
 
 use function Pest\Livewire\livewire;
 

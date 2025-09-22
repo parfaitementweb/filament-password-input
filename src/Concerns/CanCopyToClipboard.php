@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Rawilk\FilamentPasswordInput\Concerns;
+namespace Parfaitementweb\FilamentPasswordInput\Concerns;
 
 use Closure;
-use Rawilk\FilamentPasswordInput\Actions\CopyToClipboardAction;
+use Parfaitementweb\FilamentPasswordInput\Actions\CopyToClipboardAction;
 
 /**
  * @mixin \Filament\Forms\Components\TextInput

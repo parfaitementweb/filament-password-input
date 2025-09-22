@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Rawilk\FilamentPasswordInput;
+namespace Parfaitementweb\FilamentPasswordInput;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Rawilk\FilamentPasswordInput\Concerns;
+namespace Parfaitementweb\FilamentPasswordInput\Concerns;
 
 use Closure;
-use Rawilk\FilamentPasswordInput\Actions\RegeneratePasswordAction;
+use Parfaitementweb\FilamentPasswordInput\Actions\RegeneratePasswordAction;
 
 /**
  * @mixin \Filament\Schemas\Components\Component

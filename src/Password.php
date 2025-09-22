@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Rawilk\FilamentPasswordInput;
+namespace Parfaitementweb\FilamentPasswordInput;
 
 use Closure;
 use Filament\Forms\Components\TextInput;
-use Rawilk\FilamentPasswordInput\Concerns\CanCopyToClipboard;
-use Rawilk\FilamentPasswordInput\Concerns\CanRegeneratePassword;
+use Parfaitementweb\FilamentPasswordInput\Concerns\CanCopyToClipboard;
+use Parfaitementweb\FilamentPasswordInput\Concerns\CanRegeneratePassword;
 
 class Password extends TextInput
 {

@@ -7,18 +7,18 @@ it('will not use debugging functions')
     ->each->not->toBeUsed();
 
 test('strict types are used')
-    ->expect('Rawilk\FilamentPasswordInput')
+    ->expect('Parfaitementweb\FilamentPasswordInput')
     ->toUseStrictTypes();
 
 test('strict types are used in tests')
-    ->expect('Rawilk\FilamentPasswordInput\Tests')
+    ->expect('Parfaitementweb\FilamentPasswordInput\Tests')
     ->toUseStrictTypes();
 
 test('only traits are put in the Concerns directory')
-    ->expect('Rawilk\FilamentPasswordInput\Concerns')
+    ->expect('Parfaitementweb\FilamentPasswordInput\Concerns')
     ->toBeTraits();
 
 test('actions are configured correctly')
-    ->expect('Rawilk\FilamentPasswordInput\Actions')
+    ->expect('Parfaitementweb\FilamentPasswordInput\Actions')
     ->toBeClasses()
     ->toHaveSuffix('Action');

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Rawilk\FilamentPasswordInput\Actions;
+namespace Parfaitementweb\FilamentPasswordInput\Actions;
 
 use Filament\Actions\Action;
 use Filament\Schemas\Components\Component;

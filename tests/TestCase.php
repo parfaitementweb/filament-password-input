@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Rawilk\FilamentPasswordInput\Tests;
+namespace Parfaitementweb\FilamentPasswordInput\Tests;
 
 use Orchestra\Testbench\TestCase as Orchestra;
-use Rawilk\FilamentPasswordInput\FilamentPasswordInputServiceProvider;
+use Parfaitementweb\FilamentPasswordInput\FilamentPasswordInputServiceProvider;
 
 class TestCase extends Orchestra
 {
