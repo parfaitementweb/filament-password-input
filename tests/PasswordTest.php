@@ -7,10 +7,10 @@ use Filament\Actions\Contracts\HasActions;
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
 use Filament\Forms\Form;
+use Filament\Schemas\Schema;
 use Livewire\Component;
+use Livewire\Livewire;
 use Parfaitementweb\FilamentPasswordInput\Password;
-
-use function Pest\Livewire\livewire;
 
 it('can be rendered', function () {
     $component = new class extends Component implements HasActions, HasForms
@@ -18,9 +18,9 @@ it('can be rendered', function () {
         use InteractsWithActions;
         use InteractsWithForms;
 
-        public function form(Form $form): Form
+        public function form(Schema $schema): Schema
         {
-            return $form
+            return $schema
                 ->schema([
                     Password::make('password')
                         ->copyable()
@@ -36,5 +36,5 @@ it('can be rendered', function () {
         }
     };
 
-    livewire($component::class)->assertSuccessful();
+    Livewire::test($component::class)->assertSuccessful();
 });
