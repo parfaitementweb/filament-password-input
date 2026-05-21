@@ -5,10 +5,11 @@ declare(strict_types=1);
 namespace Parfaitementweb\FilamentPasswordInput\Concerns;
 
 use Closure;
+use Filament\Forms\Components\TextInput;
 use Parfaitementweb\FilamentPasswordInput\Actions\CopyToClipboardAction;
 
 /**
- * @mixin \Filament\Forms\Components\TextInput
+ * @mixin TextInput
  */
 trait CanCopyToClipboard
 {

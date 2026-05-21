@@ -5,10 +5,11 @@ declare(strict_types=1);
 namespace Parfaitementweb\FilamentPasswordInput\Concerns;
 
 use Closure;
+use Filament\Schemas\Components\Component;
 use Parfaitementweb\FilamentPasswordInput\Actions\RegeneratePasswordAction;
 
 /**
- * @mixin \Filament\Schemas\Components\Component
+ * @mixin Component
  */
 trait CanRegeneratePassword
 {
